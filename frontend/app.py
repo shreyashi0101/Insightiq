@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import random
 
-API_URL = "https://insightiq-lah8.onrender.com/"
+API_URL = "https://insightiq-lah8.onrender.com"
 
 st.set_page_config(
     page_title="InsightIQ",
@@ -40,9 +40,25 @@ st.subheader(
 
 question_id = st.session_state.question_id
 
-question_data = requests.get(
-    f"{API_URL}/question/{question_id}"
-).json()
+try:
+    response = requests.get(
+        f"{API_URL}/question/{question_id}",
+        timeout=15
+    )
+
+    question_data = response.json()
+
+except Exception as e:
+    st.error(
+        f"Backend connection failed: {e}"
+    )
+    st.stop()
+
+if "question" not in question_data:
+    st.error(
+        f"Invalid response from backend: {question_data}"
+    )
+    st.stop()
 
 # ====================================================
 # STAGE 1 : ANSWER QUESTION
