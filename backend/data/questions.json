@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "skill": "distributive_property",
+    "difficulty": 1,
+    "question": "2(x+3)=10",
+    "answer": "2",
+    "learning_objective": "Apply distributive property in linear equations",
+    "common_misconception": "ignores distribution"
+  },
+  {
+    "id": 2,
+    "skill": "distributive_property",
+    "difficulty": 1,
+    "question": "3(x+4)=21",
+    "answer": "3",
+    "learning_objective": "Apply distributive property in linear equations",
+    "common_misconception": "ignores distribution"
+  },
+  {
+    "id": 3,
+    "skill": "distributive_property",
+    "difficulty": 2,
+    "question": "4(x-2)=16",
+    "answer": "6",
+    "learning_objective": "Apply distributive property in linear equations",
+    "common_misconception": "incorrect expansion"
+  },
+  {
+    "id": 4,
+    "skill": "distributive_property",
+    "difficulty": 2,
+    "question": "5(x+1)=25",
+    "answer": "4",
+    "learning_objective": "Apply distributive property in linear equations",
+    "common_misconception": "ignores bracket operation"
+  },
+  {
+    "id": 5,
+    "skill": "distributive_property",
+    "difficulty": 3,
+    "question": "2(3x+1)=14",
+    "answer": "2",
+    "learning_objective": "Apply distributive property in linear equations",
+    "common_misconception": "partial distribution"
+  },
+
+  {
+    "id": 6,
+    "skill": "variable_isolation",
+    "difficulty": 1,
+    "question": "x+7=12",
+    "answer": "5",
+    "learning_objective": "Solve equations by isolating variables",
+    "common_misconception": "wrong inverse operation"
+  },
+  {
+    "id": 7,
+    "skill": "variable_isolation",
+    "difficulty": 1,
+    "question": "x-8=4",
+    "answer": "12",
+    "learning_objective": "Solve equations by isolating variables",
+    "common_misconception": "sign confusion"
+  },
+  {
+    "id": 8,
+    "skill": "variable_isolation",
+    "difficulty": 2,
+    "question": "x+15=28",
+    "answer": "13",
+    "learning_objective": "Solve equations by isolating variables",
+    "common_misconception": "incorrect subtraction"
+  },
+  {
+    "id": 9,
+    "skill": "variable_isolation",
+    "difficulty": 2,
+    "question": "x-12=9",
+    "answer": "21",
+    "learning_objective": "Solve equations by isolating variables",
+    "common_misconception": "sign handling error"
+  },
+  {
+    "id": 10,
+    "skill": "variable_isolation",
+    "difficulty": 3,
+    "question": "x+23=40",
+    "answer": "17",
+    "learning_objective": "Solve equations by isolating variables",
+    "common_misconception": "inverse operation mistake"
+  },
+
+  {
+    "id": 11,
+    "skill": "negative_numbers",
+    "difficulty": 1,
+    "question": "x+(-5)=3",
+    "answer": "8",
+    "learning_objective": "Solve equations involving negative numbers",
+    "common_misconception": "negative arithmetic error"
+  },
+  {
+    "id": 12,
+    "skill": "negative_numbers",
+    "difficulty": 1,
+    "question": "-x=7",
+    "answer": "-7",
+    "learning_objective": "Solve equations involving negative numbers",
+    "common_misconception": "ignores negative sign"
+  },
+  {
+    "id": 13,
+    "skill": "negative_numbers",
+    "difficulty": 2,
+    "question": "-2x=10",
+    "answer": "-5",
+    "learning_objective": "Solve equations involving negative numbers",
+    "common_misconception": "sign handling issue"
+  },
+  {
+    "id": 14,
+    "skill": "negative_numbers",
+    "difficulty": 2,
+    "question": "x-(-4)=10",
+    "answer": "6",
+    "learning_objective": "Solve equations involving negative numbers",
+    "common_misconception": "double negative confusion"
+  },
+  {
+    "id": 15,
+    "skill": "negative_numbers",
+    "difficulty": 3,
+    "question": "-3x=-18",
+    "answer": "6",
+    "learning_objective": "Solve equations involving negative numbers",
+    "common_misconception": "division sign mistake"
+  },
+
+  {
+    "id": 16,
+    "skill": "fractions",
+    "difficulty": 1,
+    "question": "x/2=6",
+    "answer": "12",
+    "learning_objective": "Solve equations involving fractions",
+    "common_misconception": "divides instead of multiplies"
+  },
+  {
+    "id": 17,
+    "skill": "fractions",
+    "difficulty": 1,
+    "question": "x/4=5",
+    "answer": "20",
+    "learning_objective": "Solve equations involving fractions",
+    "common_misconception": "fraction manipulation error"
+  },
+  {
+    "id": 18,
+    "skill": "fractions",
+    "difficulty": 2,
+    "question": "x/3=9",
+    "answer": "27",
+    "learning_objective": "Solve equations involving fractions",
+    "common_misconception": "incorrect multiplication"
+  },
+  {
+    "id": 19,
+    "skill": "fractions",
+    "difficulty": 2,
+    "question": "x/5=8",
+    "answer": "40",
+    "learning_objective": "Solve equations involving fractions",
+    "common_misconception": "fraction misunderstanding"
+  },
+  {
+    "id": 20,
+    "skill": "fractions",
+    "difficulty": 3,
+    "question": "x/6=7",
+    "answer": "42",
+    "learning_objective": "Solve equations involving fractions",
+    "common_misconception": "wrong inverse operation"
+  },
+
+  {
+    "id": 21,
+    "skill": "combining_like_terms",
+    "difficulty": 1,
+    "question": "2x+3x=15",
+    "answer": "3",
+    "learning_objective": "Combine like terms correctly",
+    "common_misconception": "fails to combine coefficients"
+  },
+  {
+    "id": 22,
+    "skill": "combining_like_terms",
+    "difficulty": 1,
+    "question": "4x+2x=18",
+    "answer": "3",
+    "learning_objective": "Combine like terms correctly",
+    "common_misconception": "coefficient addition mistake"
+  },
+  {
+    "id": 23,
+    "skill": "combining_like_terms",
+    "difficulty": 2,
+    "question": "5x+5x=20",
+    "answer": "2",
+    "learning_objective": "Combine like terms correctly",
+    "common_misconception": "fails to simplify expression"
+  },
+  {
+    "id": 24,
+    "skill": "combining_like_terms",
+    "difficulty": 2,
+    "question": "7x+3x=50",
+    "answer": "5",
+    "learning_objective": "Combine like terms correctly",
+    "common_misconception": "incorrect coefficient calculation"
+  },
+  {
+    "id": 25,
+    "skill": "combining_like_terms",
+    "difficulty": 3,
+    "question": "8x+4x=36",
+    "answer": "3",
+    "learning_objective": "Combine like terms correctly",
+    "common_misconception": "algebra simplification error"
+  }
+]
